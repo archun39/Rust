@@ -13,6 +13,7 @@ impl Inventory {
         user_preference.unwrap_or_else(|| self.most_stocked())
     }
 
+    //define
     fn most_stocked(&self) -> ShirtColor {
         let mut num_red = 0;
         let mut num_blue = 0;
